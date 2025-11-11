@@ -185,7 +185,7 @@
 
 <h2 id="reflection--learning" align="center">Reflection & Learning</h2>
 <div align="center" style="color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto; border:1px solid #ddd; background-color:#f9f9f9;">
-  <ul align="right" style="list-style-position: inside; padding-left: 0; margin-left: 0; text-align: left; display: inline-block;">
+  <ul align="center" style="list-style-position: inside; padding-left: 0; margin-left: 0; text-align: left; display: inline-block;">
     <li><strong>Programming & Skills:</strong> Applied Python, handled modules, data ingestion, and visualization; improved problem-solving, debugging, and coding practices.</li>
     <li><strong>Teamwork & Collaboration:</strong> Learned to communicate, understand teammates’ logic, and integrate work effectively.</li>
     <li><strong>Personal Growth:</strong> Built patience, resilience, and resourcefulness; realized programming is continuous learning.</li>
