@@ -20,7 +20,7 @@
 
 <section class="card" align="center" style=" color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto;">
 <h2>Key Features</h2>
-<ul style="text-align:left; padding-left:20px; list-style-type: disc;"> 
+<ul align="center" style="text-align:left; padding-left:20px;"> 
   <li>CSV ingestion & validation (handles missing/invalid fields)</li>
   <li>Array operations: select, project, sort, insert, delete</li>
   <li>Analytics: weighted grades, letter mapping, percentiles, outliers</li>
