@@ -1,0 +1,33 @@
+student_id, last_name , first_name, section, quiz1, quiz2, quiz3, quiz4, quiz5, midterm, final, attendance_percent
+       101, Adoray    , Trish     , A      ,    85,    90,    88,    92,    95,      80,    92,                100
+       102, Ante      , Chini     , A      ,    87,    85,    91,    88,    94,      80,    79,                100
+       103, Cruz      , Marianne  , A      ,    90,    92,    85,    88,      ,      78,    85,                 96
+       104, Dizon     , Kyle      , A      ,    75,    80,    82,    78,    79,      70,    72,                 85
+       105, Fajardo   , Mika      , A      ,    88,    91,    93,    94,    95,      89,    90,                 98
+       106, Santos    , Rei       , A      ,    82,    79,      ,    80,    85,      76,    84,                 92
+       107, Lorenzo   , Dan       , A      ,    90,    88,    91,    90,    89,      85,    87,                100
+       108, Reyes     , Arla      , A      ,    78,    75,    80,    82,      ,      73,    70,                 80
+       109, Navarro   , Lea       , A      ,    95,    97,    96,    98,    99,      94,    98,                100
+       110, Tan       , Ken       , A      ,    83,    85,    82,    84,    80,        ,    88,                 90
+          
+       201, Delloro   , Paul      , B      ,    90,    92,    95,    94,    96,      88,    90,                100
+       202, General   , Andrew    , B      ,    89,    91,    87,    90,    93,      85,    88,                100
+       203, Reyes     , Marco     , B      ,    80,    82,    79,    85,    83,      78,    80,                 95
+       204, Salazar   , Jude      , B      ,    55,    60,    58,    62,    59,      65,    60,                 80
+       205, Rivera    , Anne      , B      ,    93,    94,    91,    95,    92,      88,    90,                100
+       206, Hernandez , Leo       , B      ,    81,    79,    84,    83,    80,      78,    82,                100
+       207, Martinez  , Joy       , B      ,    86,    88,    85,    87,    89,      84,    86,                100
+       208, Ramos     , Carlo     , B      ,    92,    93,    91,    90,    94,      89,    91,                100
+       209, Alcantara , Faye      , B      ,    75,    73,    78,    74,    76,      70,    72,                 90
+       210, Cortez    , Liam      , B      ,    88,    86,    87,    89,    85,      83,    84,                100
+          
+       301, Gutierrez , Alon      , C      ,   100,    98,    95,    92,    90,      94,    96,                100
+       302, Petallo   , Jems      , C      ,    94,    82,    89,    91,    77,      86,    95,                100
+       303, Bautista  , Louise    , C      ,    85,    88,    82,      ,    90,      80,    88,                 95
+       304, Torres    , Sean      , C      ,    72,    75,    70,    68,      ,      65,    70,                 85
+       305, Fernandez , Kyle      , C      ,    90,    92,    91,    89,    88,        ,    90,                100
+       306, Villanueva, Yara      , C      ,    83,    85,    84,    86,    87,      80,    82,                 92
+       307, Ocampo    , Ivan      , C      ,    95,    97,    98,   100,    96,      94,    99,                100
+       308, De Leon   , Mira      , C      ,      ,    80,    82,    85,    87,      75,    78,                 90
+       309, Diaz      , Harold    , C      ,    78,      ,    75,    72,    70,      65,    68,                 80
+       310, Soriano   , Jane      , C      ,    90,    89,    92,    91,    93,      90,    92,                100

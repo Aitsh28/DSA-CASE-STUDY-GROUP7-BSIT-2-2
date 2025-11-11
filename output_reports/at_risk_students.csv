@@ -1,0 +1,2 @@
+student_id,last_name,first_name,section,quiz1,quiz2,quiz3,quiz4,quiz5,midterm,final,attendance_percent,at_risk_reasons
+204,Salazar,Jude,B,75.0,72.0,70.0,68.0,70.0,65.0,60.0,80.0,Final Score (60.0) < 65%

@@ -1,0 +1,9 @@
+{
+  "weights": {
+    "quizzes": 0.2,
+    "midterm": 0.3,
+    "final": 0.3,
+    "attendance": 0.2
+  },
+  "at_risk_threshold": 75
+}
