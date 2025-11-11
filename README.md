@@ -18,9 +18,9 @@
   This project ingests CSV data exported from an LMS, applies array-based transformations and analytics, and produces instructor-facing reports: grade distributions, per-section exports, and at-risk lists. It favors plain Python data structures (lists, dicts) and JSON configuration, with an optional NumPy-accelerated mode.
 </p>
 
-<section class="card" align="center" style="; color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto;">
+<section class="card" align="center" style=" color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto;">
 <h2>Key Features</h2>
-<ul align="right" style="list-style-position: inside; padding-left: 0; margin-left: 0; text-align: left; display: inline-block;"> 
+<ul style="text-align:left; padding-left:20px;"> 
   <li>CSV ingestion & validation (handles missing/invalid fields)</li>
   <li>Array operations: select, project, sort, insert, delete</li>
   <li>Analytics: weighted grades, letter mapping, percentiles, outliers</li>
@@ -83,37 +83,91 @@
 </div>
 </section>
 
-<section class="card">
-<h3>Project Structure</h3>
-<pre> <code>
-Academic-Analytics-Lite/
-├── 📁 pycache/ # Compiled Python bytecode files
-│   ├── analyze.cpython-313.pyc
-│   ├── ingest.cpython-313.pyc
-│   ├── reports.cpython-313.pyc
-│   └── transform.cpython-313.pyc
-│
-├── 📁 output_reports/ # Generated CSV reports
-│   ├── at_risk_students.csv
-│   ├── section_a.csv
-│   ├── section_b.csv
-│   └── section_c.csv
-│
-├── 📁 src/ # Core Python source files
-│   ├── analyze.py       # Handles data analysis and computations
-│   ├── ingest.py        # Reads and loads input data
-│   ├── main.py          # Main program execution
-│   ├── reports.py       # Generates reports and summaries
-│   └── transform.py     # Processes and transforms data
-│
-├── ⚙️ config.json        # Configuration file (weights, thresholds, paths)
-├── 🖼️ cs-output.png      # Output visualization
-├── 🖼️ csv.PNG            # CSV file reference or sample screenshot
-├── 📄 input.csv          # Input dataset
-├── 🏫 Polytechnic_University_of_the_Philippines_Quezon_City.png # School logo
-└── 📘 README.md          # Documentation file
-</code></pre>
-</section>
+<h2 align="center">Project Structure</h2>
+
+<details>
+<summary>📁 pycache/ - Compiled Python bytecode files</summary>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>analyze.cpython-313.pyc</td><td>File</td><td>Compiled analyze.py</td></tr>
+    <tr><td>ingest.cpython-313.pyc</td><td>File</td><td>Compiled ingest.py</td></tr>
+    <tr><td>reports.cpython-313.pyc</td><td>File</td><td>Compiled reports.py</td></tr>
+    <tr><td>transform.cpython-313.pyc</td><td>File</td><td>Compiled transform.py</td></tr>
+  </tbody>
+</table>
+</details>
+
+<details>
+<summary>📁 output_reports/ - Generated CSV reports</summary>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>at_risk_students.csv</td><td>File</td><td>At-risk students report</td></tr>
+    <tr><td>section_a.csv</td><td>File</td><td>Section A report</td></tr>
+    <tr><td>section_b.csv</td><td>File</td><td>Section B report</td></tr>
+    <tr><td>section_c.csv</td><td>File</td><td>Section C report</td></tr>
+  </tbody>
+</table>
+</details>
+
+<details>
+<summary>📁 src/ - Core Python source files</summary>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>analyze.py</td><td>File</td><td>Handles data analysis and computations</td></tr>
+    <tr><td>ingest.py</td><td>File</td><td>Reads and loads input data</td></tr>
+    <tr><td>main.py</td><td>File</td><td>Main program execution</td></tr>
+    <tr><td>reports.py</td><td>File</td><td>Generates reports and summaries</td></tr>
+    <tr><td>transform.py</td><td>File</td><td>Processes and transforms data</td></tr>
+  </tbody>
+</table>
+</details>
+
+<details>
+<summary>Other files ⚙️🖼️📄</summary>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>config.json</td><td>File</td><td>Configuration file (weights, thresholds, paths)</td></tr>
+    <tr><td>cs-output.png</td><td>File</td><td>Output visualization</td></tr>
+    <tr><td>csv.PNG</td><td>File</td><td>CSV file reference or sample screenshot</td></tr>
+    <tr><td>input.csv</td><td>File</td><td>Input dataset</td></tr>
+    <tr><td>Polytechnic_University_of_the_Philippines_Quezon_City.png</td><td>File</td><td>School logo</td></tr>
+    <tr><td>README.md</td><td>File</td><td>Documentation file</td></tr>
+  </tbody>
+</table>
+</details>
+
 
 <section class="card">
 <h3>Sample <code>config.json</code></h3>
@@ -175,7 +229,7 @@ Academic-Analytics-Lite/
   <p>🧩 <b>Jems Vin Rhestie Petallo</b></p>
 </section>
   
-<section class="card" align="center" style="; color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto; ">
+<section class="card" align="center" style=" color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto; ">
 <h2>Key Takeaways</h2>
 <ul style="text-align:left; padding-left:20px;">
 <li><strong style="color:#0d47a1;">Programming & Skills:</strong> Applied Python, handled modules, data ingestion, and visualization; improved problem-solving, debugging, and coding practices.</li>
