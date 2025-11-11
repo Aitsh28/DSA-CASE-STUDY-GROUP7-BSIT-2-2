@@ -18,7 +18,7 @@
   This project ingests CSV data exported from an LMS, applies array-based transformations and analytics, and produces instructor-facing reports: grade distributions, per-section exports, and at-risk lists. It favors plain Python data structures (lists, dicts) and JSON configuration, with an optional NumPy-accelerated mode.
 </p>
 
-<section class="card" align="center">
+<section class="card" align="center" style="; color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto;">
 <h2>Key Features</h2>
 <ul align="right" style="list-style-position: inside; padding-left: 0; margin-left: 0; text-align: left; display: inline-block;"> 
   <li>CSV ingestion & validation (handles missing/invalid fields)</li>
@@ -85,33 +85,33 @@
 
 <section class="card">
 <h3>Project Structure</h3>
-<pre><code>
+<pre> <code>
 Academic-Analytics-Lite/
 ├── 📁 pycache/ # Compiled Python bytecode files
-│ ├── analyze.cpython-313.pyc
-│ ├── ingest.cpython-313.pyc
-│ ├── reports.cpython-313.pyc
-│ └── transform.cpython-313.pyc
+│   ├── analyze.cpython-313.pyc
+│   ├── ingest.cpython-313.pyc
+│   ├── reports.cpython-313.pyc
+│   └── transform.cpython-313.pyc
 │
 ├── 📁 output_reports/ # Generated CSV reports
-│ ├── at_risk_students.csv
-│ ├── section_a.csv
-│ ├── section_b.csv
-│ └── section_c.csv
+│   ├── at_risk_students.csv
+│   ├── section_a.csv
+│   ├── section_b.csv
+│   └── section_c.csv
 │
 ├── 📁 src/ # Core Python source files
-│ ├── analyze.py # Handles data analysis and computations
-│ ├── ingest.py # Reads and loads input data
-│ ├── main.py # Main program execution
-│ ├── reports.py # Generates reports and summaries
-│ └── transform.py # Processes and transforms data
+│   ├── analyze.py       # Handles data analysis and computations
+│   ├── ingest.py        # Reads and loads input data
+│   ├── main.py          # Main program execution
+│   ├── reports.py       # Generates reports and summaries
+│   └── transform.py     # Processes and transforms data
 │
-├── ⚙️ config.json # Configuration file (weights, thresholds, paths)
-├── 🖼️ cs-output.png # Output visualization
-├── 🖼️ csv.PNG # CSV file reference or sample screenshot
-├── 📄 input.csv # Input dataset
+├── ⚙️ config.json        # Configuration file (weights, thresholds, paths)
+├── 🖼️ cs-output.png      # Output visualization
+├── 🖼️ csv.PNG            # CSV file reference or sample screenshot
+├── 📄 input.csv          # Input dataset
 ├── 🏫 Polytechnic_University_of_the_Philippines_Quezon_City.png # School logo
-└── 📘 README.md # Documentation file
+└── 📘 README.md          # Documentation file
 </code></pre>
 </section>
 
@@ -185,7 +185,6 @@ Academic-Analytics-Lite/
 </ul>
 </section>
 
-  
 <footer>
 <p>Academic Analytics Lite — v1.0 &middot; Author: Data Structures and Algorithms Team (BSIT2-2 - GROUP 7)</p>
 </footer>
