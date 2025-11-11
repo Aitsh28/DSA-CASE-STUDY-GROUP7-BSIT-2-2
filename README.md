@@ -31,7 +31,7 @@
 
 <h2 id="key-features" align="center">Key Features</h2>
 <div align="center" style="color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto; border:1px solid #ddd; background-color:#f9f9f9;">
-  <ul style="text-align:left; padding-left:20px; line-height:1.6;">
+  <ul align="right" style="list-style-position: inside; padding-left: 0; margin-left: 0; text-align: left; display: inline-block;">
     <li>CSV ingestion & validation (handles missing/invalid fields)</li>
     <li>Array operations: select, project, sort, insert, delete</li>
     <li>Analytics: weighted grades, letter mapping, percentiles, outliers</li>
@@ -42,7 +42,7 @@
   </ul>
 </div>
 
-<h2 id="prerequisites--setup">Prerequisites & Setup</h2>
+<h2 id="prerequisites--setup" align="center">Prerequisites & Setup</h2>
 <div align="center">
   <table style="width: 600px; border-collapse: collapse; margin-top: 10px; font-size: 15px;">
     <tr>
@@ -64,7 +64,7 @@
   </table>
 </div>
 
-<h2 id="usage-instructions">Usage Instructions</h2>
+<h2 id="usage-instructions" align="center">Usage Instructions</h2>
 <div align="center">
   <table style="width: 600px; border-collapse: collapse; margin-top: 24px; font-size: 15px;">
     <tr>
@@ -78,10 +78,10 @@
   </table>
 </div>
 
-<h2 id="project-structure">Project Structure</h2>
+<h2 align="center" id="project-structure">Project Structure</h2>
 
 <details>
-<summary>📁 pycache/ - Compiled Python bytecode files</summary>
+<summary align="center">📁 pycache/ - Compiled Python bytecode files</summary>
 <table>
   <thead>
     <tr><th>File</th><th>Type</th><th>Description</th></tr>
@@ -95,7 +95,7 @@
 </table>
 </details>
 
-<h2 id="complexity--performance">Complexity & Performance</h2>
+<h2 align="center" id="complexity--performance">Complexity & Performance</h2>
 <div align="center">
   <table style="width: 600px; border-collapse: collapse; margin-top: 20px; font-size: 15px;">
     <thead><tr><th>Stage</th><th>Time</th><th>Space</th></tr></thead>
@@ -110,7 +110,7 @@
 </div>
 
 <details>
-<summary>📁 output_reports/ - Generated CSV reports</summary>
+<summary align="center">📁 output_reports/ - Generated CSV reports</summary>
 <table>
   <thead>
     <tr><th>File</th><th>Type</th><th>Description</th></tr>
@@ -125,7 +125,7 @@
 </details>
 
 <details>
-<summary>📁 src/ - Core Python source files</summary>
+<summary align="center">📁 src/ - Core Python source files</summary>
 <table>
   <thead>
     <tr><th>File</th><th>Type</th><th>Description</th></tr>
@@ -142,7 +142,7 @@
 
 <!-- Sections restored but NOT in Table of Contents -->
 
-<section class="card">
+<section class="card" align="center">
 <h2>Sample <code>config.json</code></h2>
 <pre><code>
 {
@@ -157,14 +157,14 @@
 </code></pre>
 </section>
 
-<section class="card">
+<section class="card" align="center">
 <h2>Input Format</h2>
 <p>CSV columns expected:</p>
 <pre>student_id,last_name,first_name,section,quiz1,...,quiz5,midterm,final,attendance_percent</pre>
 <p class="muted">Scores should be 0–100; missing numeric values will be treated as <code>null</code> and handled by validation logic.</p>
 </section>
 
-<section class="card">
+<section class="card" align="center">
 <h2>Screenshots / Demo (placeholders)</h2>
 <div class="columns">
 <div class="screenshot">CLI Summary Output</div>
@@ -183,15 +183,15 @@
 <p>🧩 <b>Jems Vin Rhestie Petallo</b></p>
 </section>
 
-<h2 id="reflection--learning">Reflection & Learning</h2>
+<h2 id="reflection--learning" align="center">Reflection & Learning</h2>
 <div align="center" style="color:#1a1a1a; padding:20px; border-radius:12px; max-width:800px; margin:auto; border:1px solid #ddd; background-color:#f9f9f9;">
-  <ul style="text-align:left; padding-left:20px; line-height:1.6;">
+  <ul align="right" style="list-style-position: inside; padding-left: 0; margin-left: 0; text-align: left; display: inline-block;">
     <li><strong>Programming & Skills:</strong> Applied Python, handled modules, data ingestion, and visualization; improved problem-solving, debugging, and coding practices.</li>
     <li><strong>Teamwork & Collaboration:</strong> Learned to communicate, understand teammates’ logic, and integrate work effectively.</li>
     <li><strong>Personal Growth:</strong> Built patience, resilience, and resourcefulness; realized programming is continuous learning.</li>
     <li><strong>Practical Application:</strong> Gained knowledge applicable to real-life situations and future projects.</li>
   </ul>
 </div>
-<footer>
+<footer align="center">
   <p>Academic Analytics Lite — v1.0 &middot; Author: Data Structures and Algorithms Team (BSIT2-2 - GROUP 7)</p>
 </footer>
